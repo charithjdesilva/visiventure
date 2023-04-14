@@ -4,7 +4,7 @@ import { VideoCard, ChannelCard } from './';
 
 const Videos = ({ videos }) => {
   return (
-    <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
+    <Stack direction="row" flexWrap="wrap" justifyContent="center" gap={2}>
       {videos.map((item, index) => (
         <Box key={index}>
           {/* check if it is a profile or just a video */}
